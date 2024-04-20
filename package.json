@@ -1,0 +1,32 @@
+{
+  "name": "cricket-cli",
+  "version": "1.0.0",
+  "description": "Our package is a comprehensive CLI tool designed to bring live cricket scores directly to your terminal, providing instant access to match updates and statistics. Powered by Node.js, it seamlessly interacts with the  cricketdata API, allowing users to retrieve and manage cricket data effortlessly. Whether you're a cricket enthusiast or a developer seeking real-time information, our tool simplifies the process with its intuitive interface and seamless integration. Stay informed and connected to the game you love with our cricket CLI tool.",
+  "bin": {
+    "cricket-cli": "./cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlyVishesh/cricket-cli.git"
+  },
+  "keywords": [
+    "cricket",
+    "cli",
+    "cricket-cli"
+  ],
+  "author": "Vishesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlyVishesh/cricket-cli/issues"
+  },
+  "homepage": "https://github.com/onlyVishesh/cricket-cli#readme",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "test": "^3.3.0"
+  }
+}
