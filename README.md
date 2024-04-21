@@ -4,10 +4,10 @@ Unlock the power of real-time cricket updates directly from your terminal with c
 
 ## Demo -
 
-<video width="854" height="480" controls>
-  <source src="./demo%20video/cricket-cli.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+Watch a demo of cricket-cli in action:
+
+[![Demo Video](https://img.youtube.com/vi/z85RsI8u9l8/0.jpg)](https://www.youtube.com/watch?v=z85RsI8u9l8)
+
 
 ## Prerequisites
 
