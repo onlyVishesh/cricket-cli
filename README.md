@@ -2,6 +2,17 @@
 
 Unlock the power of real-time cricket updates directly from your terminal with cricket-cli — an indispensable npm package for cricket enthusiasts. Stay ahead of the game with live scores, track ongoing matches, anticipate upcoming showdowns, and reminisce about recent matches — all conveniently accessible from your command line interface.
 
+## Demo - 
+
+
+
+## Prerequisites
+
+Before using Cricket Terminal, please ensure you have the following:
+
+- An API key to access live cricket scores. You can obtain your API key from [cricketdata website](https://cricketdata.org).
+- Note: There is a limit of 100 requests per day.
+  
 ## Installation
 
 To install cricket-cli , simply run the following command in your terminal:
