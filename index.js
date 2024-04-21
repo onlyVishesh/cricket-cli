@@ -149,16 +149,18 @@ const displayScores = async () => {
     message: "Enter team name to filter matches:",
   });
 
-  const scores = await Scores(teamName);
 
-  if (scores.length === 0) {
-    console.log(chalk.yellow.bold("No matches found for the specified team."));
-    return;
-  }
 
   const displayMatches = async () => {
     // Clear the terminal
     console.clear();
+
+  const scores = await Scores(teamName);
+
+    if (scores.length === 0) {
+      console.log(chalk.yellow.bold("No matches found for the specified team."));
+      exit();
+    }
 
     scores.forEach((match) => {
       const headline = `\n${chalk.green.bold(
